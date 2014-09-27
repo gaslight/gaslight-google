@@ -5,6 +5,10 @@ Gaslight Google API.
 
 ## Installation
 
+This gem requires a runtime dependency to 'gaslight/gaslight-client',
+which is not published. You'll need to clone that repo locally and `rake
+install` it to add it to your `gem list`
+
 Add this line to your application's Gemfile:
 
     gem 'gaslight-google', github: 'gaslight/gaslight-google'

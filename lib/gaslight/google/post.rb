@@ -1,4 +1,4 @@
-require 'gaslight-client'
+require 'gaslight/client'
 
 module Gaslight::Google
   class Post
