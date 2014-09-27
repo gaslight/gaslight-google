@@ -1,5 +1,4 @@
 require "gaslight/google/version"
-require "gaslight/google/client"
 require "gaslight/google/post"
 
 module Gaslight

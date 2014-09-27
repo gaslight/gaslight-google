@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in gaslight-people.gemspec
+gem "gaslight-client", path: '/Users/joelturnbull/src/gaslight/gaslight-client'
+
+# Specify your gem's dependencies in gaslight-google.gemspec
 gemspec
+

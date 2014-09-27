@@ -1,6 +1,4 @@
 require 'test_helper'
-require 'debugger'
-require "gaslight/google/client"
 require "gaslight/google/version"
 require 'gaslight/google/post'
 
@@ -15,7 +13,6 @@ module Gaslight::Google
     end
 
     def test_list_response
-      debugger
       @response = Post.all
       assert_equal 1000, @response.size
     end
